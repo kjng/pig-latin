@@ -3,7 +3,10 @@ process.stdin.setEncoding('utf8');
 console.log('Pig Latin Translator by Kevin Jang');
 console.log('Enter a word/sentence:');
 
-process.stdin.on('data', function(text) {});
+process.stdin.on('data', function(text) {
+  console.log(convertToPigLatin(text));
+  exit();
+});
 
 export function convertToPigLatin(sentence) {
   const words = sentence.split(' ');
