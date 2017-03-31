@@ -5,7 +5,7 @@ console.log('Enter a word/sentence:');
 
 process.stdin.on('data', function(text) {});
 
-function convertToPigLatin(sentence) {
+export function convertToPigLatin(sentence) {
   const words = sentence.split(' ');
   const ay = 'ay';
   return words.map((word) => {
