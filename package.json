@@ -1,0 +1,28 @@
+{
+  "name": "pig-latin",
+  "version": "1.0.0",
+  "description": "JavaScript Node.js piglatin translator",
+  "main": "pigLatin.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjng/pig-latin.git"
+  },
+  "keywords": [
+    "pig",
+    "latin",
+    "translator"
+  ],
+  "author": "Kevin Jang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjng/pig-latin/issues"
+  },
+  "homepage": "https://github.com/kjng/pig-latin#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
